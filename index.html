@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Globe App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components/globe.css">
+    <link rel="stylesheet" href="css/components/player.css">
+    <link rel="stylesheet" href="css/components/ui.css">
+    <!-- Import Three.js and its controls from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <!-- Inline styles to ensure visibility -->
+    <style>
+      #globe-container {
+        width: 100%;
+        height: 100%;
+        min-height: 700px;
+        /* Ensure minimum height */
+        background-color: #000408;
+        touch-action: none;
+        /* Prevents default touch actions like scrolling */
+        position: relative;
+        /* Ensure positioning context */
+      }
+
+      .app-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      main {
+        flex: 1;
+        position: relative;
+        min-height: 70vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <div class="title-container">
+          <h1>Music Globe App</h1>
+        </div>
+      </header>
+      <main>
+        <div id="globe-container"></div>
+        <div id="music-player" class="hidden">
+          <div class="player-header">
+            <h2 id="city-name">City Name</h2>
+            <button id="close-player" aria-label="Close music player">x</button>
+          </div>
+          <div class="player-info">
+            <div id="city-description">Description about the city's musical culture...</div>
+          </div>
+          <div class="playlist">
+            <h3>Local Sounds</h3>
+            <ul id="playlist-items"></ul>
+          </div>
+          <div class="player-controls">
+            <div class="now-playing">
+              <div id="current-track-info">Select a track to play</div>
+            </div>
+            <div class="audio-controls">
+              <audio id="audio-player" controls></audio>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- Application Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/utils/GeoUtils.js"></script>
+    <script src="js/utils/DomUtils.js"></script>
+    <script src="js/services/EventBus.js"></script>
+    <script src="js/services/DataService.js"></script>
+    <script src="js/components/CityMarker.js"></script>
+    <script src="js/components/MusicPlayer.js"></script>
+    <script src="js/components/Globe.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
