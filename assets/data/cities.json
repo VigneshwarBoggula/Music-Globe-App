@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "new-york",
+    "name": "New York",
+    "country": "United States",
+    "region": "North America",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "description": "New York City is a global hub for music with diverse influences including jazz, hip-hop, punk, classical, and more.",
+    "playlist": [
+      {
+        "title": "Empire State of Mind",
+        "artist": "Jay-Z ft. Alicia Keys",
+        "year": 2009,
+        "url": "assets/data/audio/empire-state-of-mind.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "Uptown Funk",
+        "artist": "Mark Ronson ft. Bruno Mars",
+        "year": 2014,
+        "url": "assets/data/audio/uptown-funk.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Welcome To New York",
+        "artist": "Taylor Swift",
+        "year": 2023,
+        "url": "assets/data/audio/welcome-to-new-york.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "london",
+    "name": "London",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "description": "London has been at the center of countless musical movements, from the British Invasion led by The Beatles to punk rock and grime.",
+    "playlist": [
+      {
+        "title": "Fix You",
+        "artist": "Coldplay",
+        "year": 2005,
+        "url": "assets/data/audio/fix-you.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "Common Sense",
+        "artist": "J Hus",
+        "year": 2017,
+        "url": "assets/data/audio/common-sense.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Electric Dream",
+        "artist": "Cloud Nine",
+        "year": 2023,
+        "url": "assets/data/audio/electric-dream.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "region": "Asia",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "description": "Tokyo's music scene is as vibrant and eclectic as the city itself, from traditional enka and folk music to J-pop, city pop, and experimental electronic music.",
+    "playlist": [
+      {
+        "title": "Tokyo Drift",
+        "artist": "Teriyaki Boyz",
+        "year": 2006,
+        "url": "assets/data/audio/tokyo-drift.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "PONPONPON",
+        "artist": "Kyary Pamyu Pamyu",
+        "year": 2011,
+        "url": "assets/data/audio/ponponpon.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Night Tempo",
+        "artist": "Midnight City",
+        "year": 2023,
+        "url": "assets/data/audio/night-tempo.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "rio-de-janeiro",
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "region": "South America",
+    "lat": -22.9068,
+    "lng": -43.1729,
+    "description": "Rio de Janeiro pulses with rhythm, from the samba schools of Carnival to bossa nova born on Ipanema Beach.",
+    "playlist": [
+      {
+        "title": "Deixa a Vida Me Levar",
+        "artist": "Zeca Pagodinho",
+        "year": 2002,
+        "url": "assets/data/audio/deixa-a-vida-me-levar.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "Baile de Favela",
+        "artist": "MC João",
+        "year": 2015,
+        "url": "assets/data/audio/baile-de-favela.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Nova Onda",
+        "artist": "Sun Rise",
+        "year": 2023,
+        "url": "assets/data/audio/nova-onda.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "nairobi",
+    "name": "Nairobi",
+    "country": "Kenya",
+    "region": "Africa",
+    "lat": -1.2921,
+    "lng": 36.8219,
+    "description": "Nairobi's dynamic music scene blends traditional sounds with contemporary genres.",
+    "playlist": [
+      {
+        "title": "Adhiambo",
+        "artist": "Suzanna Owiyo",
+        "year": 2007,
+        "url": "assets/data/audio/adhiambo.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "Dundaing",
+        "artist": "King Kaka ft. Kristoff & Magix Enga",
+        "year": 2018,
+        "url": "assets/data/audio/dundaing.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Nairobi Nights",
+        "artist": "Urban Pulse",
+        "year": 2022,
+        "url": "assets/data/audio/nairobi-nights.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "cairo",
+    "name": "Cairo",
+    "country": "Egypt",
+    "region": "Middle East",
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "description": "Cairo's rich musical heritage spans millennia, from ancient Egyptian traditions to modern Arabic pop.",
+    "playlist": [
+      {
+        "title": "Ah W Noss",
+        "artist": "Nancy Ajram",
+        "year": 2004,
+        "url": "assets/data/audio/ah-w-noss.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "3 Daqat",
+        "artist": "Abu ft. Yousra",
+        "year": 2017,
+        "url": "assets/data/audio/3-daqat.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Cairo Nights",
+        "artist": "Desert Rose",
+        "year": 2023,
+        "url": "assets/data/audio/cairo-nights.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "mexico-city",
+    "name": "Mexico City",
+    "country": "Mexico",
+    "region": "North America",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "description": "Mexico City's music scene spans traditional mariachi and ranchera to modern rock, hip-hop, and electronic music.",
+    "playlist": [
+      {
+        "title": "México en la Piel",
+        "artist": "Luis Miguel",
+        "year": 2004,
+        "url": "assets/data/audio/mexico-en-la-piel.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "Hasta La Raíz",
+        "artist": "Natalia Lafourcade",
+        "year": 2015,
+        "url": "assets/data/audio/hasta-la-raiz.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Luces Modernas",
+        "artist": "Urban Drift",
+        "year": 2022,
+        "url": "assets/data/audio/luces-modernas.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "region": "Europe",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "description": "Paris embodies musical sophistication, from chanson and cabaret to electronic music and hip-hop.",
+    "playlist": [
+      {
+        "title": "La Flûte de Pan",
+        "artist": "Phoenix",
+        "year": 2009,
+        "url": "assets/data/audio/la-flute-de-pan.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "Dernière Danse",
+        "artist": "Indila",
+        "year": 2013,
+        "url": "assets/data/audio/derniere-danse.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Soir de Paris",
+        "artist": "Moonlight",
+        "year": 2023,
+        "url": "assets/data/audio/soir-de-paris.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "region": "Oceania",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "description": "Sydney's music scene reflects Australia's diversity and innovation, from indigenous didgeridoo to modern indie rock and electronic dance music.",
+    "playlist": [
+      {
+        "title": "The Sound of White",
+        "artist": "Missy Higgins",
+        "year": 2004,
+        "url": "assets/data/audio/sound-of-white.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "Chandelier",
+        "artist": "Sia",
+        "year": 2014,
+        "url": "assets/data/audio/chandelier.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Harbor Lights",
+        "artist": "Coastal Drift",
+        "year": 2023,
+        "url": "assets/data/audio/harbor-lights.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai",
+    "country": "India",
+    "region": "Asia",
+    "lat": 19.076,
+    "lng": 72.8777,
+    "description": "Mumbai, home to Bollywood, offers a kaleidoscope of musical styles from classical Hindustani to filmi music and indie pop.",
+    "playlist": [
+      {
+        "title": "Jai Ho",
+        "artist": "A.R. Rahman",
+        "year": 2008,
+        "url": "assets/data/audio/jai-ho.mp3",
+        "decade": "00s"
+      },
+      {
+        "title": "Balam Pichkari",
+        "artist": "Vishal-Shekhar",
+        "year": 2013,
+        "url": "assets/data/audio/balam-pichkari.mp3",
+        "decade": "10s"
+      },
+      {
+        "title": "Mumbai Dreams",
+        "artist": "Fusion Wave",
+        "year": 2022,
+        "url": "assets/data/audio/mumbai-dreams.mp3",
+        "decade": "20s"
+      }
+    ]
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin",
+    "country": "Germany",
+    "region": "Europe",
+    "lat": 52.5200,
+    "lng": 13.4050,
+    "description": "Berlin is known for its influential electronic music scene, particularly techno, with legendary clubs like Berghain.",
+    "playlist": [
+      {
+        "title": "Strings of Life",
+        "artist": "Paul Kalkbrenner",
+        "year": 2010,
+        "url": "assets/data/audio/strings-of-life.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "buenos-aires",
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "region": "South America",
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "description": "Buenos Aires is the birthplace of tango and continues to nurture a vibrant music scene spanning rock nacional to electronic.",
+    "playlist": [
+      {
+        "title": "De Música Ligera",
+        "artist": "Soda Stereo",
+        "year": 1990,
+        "url": "assets/data/audio/de-musica-ligera.mp3",
+        "decade": "90s"
+      }
+    ]
+  },
+  {
+    "id": "seoul",
+    "name": "Seoul",
+    "country": "South Korea",
+    "region": "Asia",
+    "lat": 37.5665,
+    "lng": 126.9780,
+    "description": "Seoul is the epicenter of the global K-pop phenomenon, blending catchy pop with elaborate choreography and visual aesthetics.",
+    "playlist": [
+      {
+        "title": "Gangnam Style",
+        "artist": "PSY",
+        "year": 2012,
+        "url": "assets/data/audio/gangnam-style.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "lagos",
+    "name": "Lagos",
+    "country": "Nigeria",
+    "region": "Africa",
+    "lat": 6.5244,
+    "lng": 3.3792,
+    "description": "Lagos is the heart of Nigeria's dynamic music scene, pioneering Afrobeats and fusing traditional rhythms with contemporary sounds.",
+    "playlist": [
+      {
+        "title": "Fall",
+        "artist": "Davido",
+        "year": 2017,
+        "url": "assets/data/audio/fall.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "kingston",
+    "name": "Kingston",
+    "country": "Jamaica",
+    "region": "Caribbean",
+    "lat": 18.0179,
+    "lng": -76.8099,
+    "description": "Kingston is the cradle of reggae, ska, and dancehall, having given the world Bob Marley and countless other musical innovators.",
+    "playlist": [
+      {
+        "title": "One Love",
+        "artist": "Bob Marley & The Wailers",
+        "year": 1977,
+        "url": "assets/data/audio/one-love.mp3",
+        "decade": "70s"
+      }
+    ]
+  },
+  {
+    "id": "havana",
+    "name": "Havana",
+    "country": "Cuba",
+    "region": "Caribbean",
+    "lat": 23.1136,
+    "lng": -82.3666,
+    "description": "Havana's rich musical heritage includes son, rumba, salsa, and the globally influential Buena Vista Social Club.",
+    "playlist": [
+      {
+        "title": "Chan Chan",
+        "artist": "Buena Vista Social Club",
+        "year": 1997,
+        "url": "assets/data/audio/chan-chan.mp3",
+        "decade": "90s"
+      }
+    ]
+  },
+  {
+    "id": "detroit",
+    "name": "Detroit",
+    "country": "United States",
+    "region": "North America",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "description": "Detroit gave birth to Motown, techno, and has influenced rock, hip-hop, and electronic music worldwide.",
+    "playlist": [
+      {
+        "title": "Superstition",
+        "artist": "Stevie Wonder",
+        "year": 1972,
+        "url": "assets/data/audio/superstition.mp3",
+        "decade": "70s"
+      }
+    ]
+  },
+  {
+    "id": "manchester",
+    "name": "Manchester",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "lat": 53.4808,
+    "lng": -2.2426,
+    "description": "Manchester has been pivotal in alternative rock, post-punk, and dance music, home to legendary bands like The Smiths and Joy Division.",
+    "playlist": [
+      {
+        "title": "Love Will Tear Us Apart",
+        "artist": "Joy Division",
+        "year": 1980,
+        "url": "assets/data/audio/love-will-tear-us-apart.mp3",
+        "decade": "80s"
+      }
+    ]
+  },
+  {
+    "id": "reykjavik",
+    "name": "Reykjavik",
+    "country": "Iceland",
+    "region": "Europe",
+    "lat": 64.1466,
+    "lng": -21.9426,
+    "description": "Reykjavik's music scene is remarkably diverse for its size, producing unique artists like Björk and Sigur Rós.",
+    "playlist": [
+      {
+        "title": "Hoppípolla",
+        "artist": "Sigur Rós",
+        "year": 2005,
+        "url": "assets/data/audio/hoppipolla.mp3",
+        "decade": "00s"
+      }
+    ]
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "region": "Europe",
+    "lat": 38.7223,
+    "lng": -9.1393,
+    "description": "Lisbon is the home of fado, Portugal's soulful traditional music, and a growing electronic music scene.",
+    "playlist": [
+      {
+        "title": "Barco Negro",
+        "artist": "Amália Rodrigues",
+        "year": 1954,
+        "url": "assets/data/audio/barco-negro.mp3",
+        "decade": "50s"
+      }
+    ]
+  },
+  {
+    "id": "vienna",
+    "name": "Vienna",
+    "country": "Austria",
+    "region": "Europe",
+    "lat": 48.2082,
+    "lng": 16.3738,
+    "description": "Vienna has been a center of classical music for centuries, home to Mozart, Beethoven, and the Vienna Philharmonic.",
+    "playlist": [
+      {
+        "title": "The Blue Danube",
+        "artist": "Johann Strauss II",
+        "year": 1866,
+        "url": "assets/data/audio/blue-danube.mp3",
+        "decade": "1860s"
+      }
+    ]
+  },
+  {
+    "id": "new-orleans",
+    "name": "New Orleans",
+    "country": "United States",
+    "region": "North America",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "description": "New Orleans is the birthplace of jazz and continues to nurture a unique blend of musical traditions.",
+    "playlist": [
+      {
+        "title": "When the Saints Go Marching In",
+        "artist": "Louis Armstrong",
+        "year": 1938,
+        "url": "assets/data/audio/when-the-saints.mp3",
+        "decade": "30s"
+      }
+    ]
+  },
+  {
+    "id": "memphis",
+    "name": "Memphis",
+    "country": "United States",
+    "region": "North America",
+    "lat": 35.1495,
+    "lng": -90.0490,
+    "description": "Memphis is known as the home of blues and the birthplace of rock and roll, with Sun Studio and Graceland as its musical landmarks.",
+    "playlist": [
+      {
+        "title": "Jailhouse Rock",
+        "artist": "Elvis Presley",
+        "year": 1957,
+        "url": "assets/data/audio/jailhouse-rock.mp3",
+        "decade": "50s"
+      }
+    ]
+  },
+  {
+    "id": "nashville",
+    "name": "Nashville",
+    "country": "United States",
+    "region": "North America",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "description": "Nashville, known as 'Music City,' is the heart of country music and home to countless recording studios and music venues.",
+    "playlist": [
+      {
+        "title": "Jolene",
+        "artist": "Dolly Parton",
+        "year": 1973,
+        "url": "assets/data/audio/jolene.mp3",
+        "decade": "70s"
+      }
+    ]
+  },
+  {
+    "id": "johannesburg",
+    "name": "Johannesburg",
+    "country": "South Africa",
+    "region": "Africa",
+    "lat": -26.2041,
+    "lng": 28.0473,
+    "description": "Johannesburg's music scene blends traditional African rhythms with contemporary styles, pioneering kwaito and amapiano.",
+    "playlist": [
+      {
+        "title": "Jerusalema",
+        "artist": "Master KG ft. Nomcebo Zikode",
+        "year": 2019,
+        "url": "assets/data/audio/jerusalema.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "stockholm",
+    "name": "Stockholm",
+    "country": "Sweden",
+    "region": "Europe",
+    "lat": 59.3293,
+    "lng": 18.0686,
+    "description": "Stockholm is a pop music powerhouse, home to ABBA and producers who have shaped the sound of contemporary pop.",
+    "playlist": [
+      {
+        "title": "Dancing Queen",
+        "artist": "ABBA",
+        "year": 1976,
+        "url": "assets/data/audio/dancing-queen.mp3",
+        "decade": "70s"
+      }
+    ]
+  },
+  {
+    "id": "bangkok",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "region": "Asia",
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "description": "Bangkok's music scene ranges from traditional Thai classical music to modern pop and a thriving underground electronic scene.",
+    "playlist": [
+      {
+        "title": "ขอใจเธอแลกเบอร์โทร",
+        "artist": "BNK48",
+        "year": 2018,
+        "url": "assets/data/audio/kor-jai-tur.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "beirut",
+    "name": "Beirut",
+    "country": "Lebanon",
+    "region": "Middle East",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "description": "Beirut blends traditional Arabic music with modern influences, creating a unique fusion sound.",
+    "playlist": [
+      {
+        "title": "Beirut",
+        "artist": "Ibrahim Maalouf",
+        "year": 2011,
+        "url": "assets/data/audio/beirut.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "seattle",
+    "name": "Seattle",
+    "country": "United States",
+    "region": "North America",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "description": "Seattle is famous for launching the grunge movement in the 1990s and continues to support a vibrant alternative music scene.",
+    "playlist": [
+      {
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "year": 1991,
+        "url": "assets/data/audio/teen-spirit.mp3",
+        "decade": "90s"
+      }
+    ]
+  },
+  {
+    "id": "cape-town",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "description": "Cape Town offers a diverse music scene from jazz to hip-hop, reflecting South Africa's cultural mosaic.",
+    "playlist": [
+      {
+        "title": "Cape of Good Hope",
+        "artist": "Abdullah Ibrahim",
+        "year": 1997,
+        "url": "assets/data/audio/cape-of-good-hope.mp3",
+        "decade": "90s"
+      }
+    ]
+  },
+  {
+    "id": "dublin",
+    "name": "Dublin",
+    "country": "Ireland",
+    "region": "Europe",
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "description": "Dublin's music heritage spans traditional Irish folk to rock, producing iconic bands like U2 and The Cranberries.",
+    "playlist": [
+      {
+        "title": "With or Without You",
+        "artist": "U2",
+        "year": 1987,
+        "url": "assets/data/audio/with-or-without-you.mp3",
+        "decade": "80s"
+      }
+    ]
+  },
+  {
+    "id": "montreal",
+    "name": "Montreal",
+    "country": "Canada",
+    "region": "North America",
+    "lat": 45.5017,
+    "lng": -73.5673,
+    "description": "Montreal has a thriving indie music scene and hosts multiple major music festivals throughout the year.",
+    "playlist": [
+      {
+        "title": "Reflektor",
+        "artist": "Arcade Fire",
+        "year": 2013,
+        "url": "assets/data/audio/reflektor.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "country": "Greece",
+    "region": "Europe",
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "description": "Athens blends traditional Greek music with a growing alternative and electronic scene.",
+    "playlist": [
+      {
+        "title": "Zorba's Dance",
+        "artist": "Mikis Theodorakis",
+        "year": 1964,
+        "url": "assets/data/audio/zorbas-dance.mp3",
+        "decade": "60s"
+      }
+    ]
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain",
+    "region": "Europe",
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "description": "Barcelona hosts a vibrant music scene, from flamenco to Catalan rumba and electronic music festivals.",
+    "playlist": [
+      {
+        "title": "Mediterráneo",
+        "artist": "Joan Manuel Serrat",
+        "year": 1971,
+        "url": "assets/data/audio/mediterraneo.mp3",
+        "decade": "70s"
+      }
+    ]
+  },
+  {
+    "id": "melbourne",
+    "name": "Melbourne",
+    "country": "Australia",
+    "region": "Oceania",
+    "lat": -37.8136,
+    "lng": 144.9631,
+    "description": "Melbourne is renowned for its dynamic independent music scene across multiple genres.",
+    "playlist": [
+      {
+        "title": "Somebody That I Used to Know",
+        "artist": "Gotye ft. Kimbra",
+        "year": 2011,
+        "url": "assets/data/audio/somebody.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "austin",
+    "name": "Austin",
+    "country": "United States",
+    "region": "North America",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "description": "Austin, the 'Live Music Capital of the World,' hosts festivals like SXSW and has a thriving local music scene.",
+    "playlist": [
+      {
+        "title": "Texas Flood",
+        "artist": "Stevie Ray Vaughan",
+        "year": 1983,
+        "url": "assets/data/audio/texas-flood.mp3",
+        "decade": "80s"
+      }
+    ]
+  },
+  {
+    "id": "moscow",
+    "name": "Moscow",
+    "country": "Russia",
+    "region": "Europe",
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "description": "Moscow has a rich musical tradition from classical compositions to contemporary rock and electronic music.",
+    "playlist": [
+      {
+        "title": "All That She Wants",
+        "artist": "t.A.T.u.",
+        "year": 2002,
+        "url": "assets/data/audio/all-the-things.mp3",
+        "decade": "00s"
+      }
+    ]
+  },
+  {
+    "id": "addis-ababa",
+    "name": "Addis Ababa",
+    "country": "Ethiopia",
+    "region": "Africa",
+    "lat": 9.0320,
+    "lng": 38.7490,
+    "description": "Addis Ababa is the center of Ethiopia's unique jazz scene, blending traditional scales with modern instrumentation.",
+    "playlist": [
+      {
+        "title": "Ambassel",
+        "artist": "Mulatu Astatke",
+        "year": 1972,
+        "url": "assets/data/audio/ambassel.mp3",
+        "decade": "70s"
+      }
+    ]
+  },
+  {
+    "id": "istanbul",
+    "name": "Istanbul",
+    "country": "Turkey",
+    "region": "Europe/Asia",
+    "lat": 41.0082,
+    "lng": 28.9784,
+    "description": "Istanbul bridges East and West in its music, from traditional Ottoman classical to Turkish pop and psych rock.",
+    "playlist": [
+      {
+        "title": "Deli",
+        "artist": "Sezen Aksu",
+        "year": 1993,
+        "url": "assets/data/audio/deli.mp3",
+        "decade": "90s"
+      }
+    ]
+  },
+  {
+    "id": "tehran",
+    "name": "Tehran",
+    "country": "Iran",
+    "region": "Middle East",
+    "lat": 35.6892,
+    "lng": 51.3890,
+    "description": "Tehran has a rich tradition of Persian classical music alongside an underground rock and electronic scene.",
+    "playlist": [
+      {
+        "title": "Parvaaz",
+        "artist": "Mohsen Namjoo",
+        "year": 2007,
+        "url": "assets/data/audio/parvaaz.mp3",
+        "decade": "00s"
+      }
+    ]
+  },
+  {
+    "id": "accra",
+    "name": "Accra",
+    "country": "Ghana",
+    "region": "Africa",
+    "lat": 5.6037,
+    "lng": -0.1870,
+    "description": "Accra is the heart of Ghana's highlife and hiplife music, blending traditional rhythms with contemporary sounds.",
+    "playlist": [
+      {
+        "title": "Makoma",
+        "artist": "Sarkodie",
+        "year": 2019,
+        "url": "assets/data/audio/makoma.mp3",
+        "decade": "10s"
+      }
+    ]
+  },
+  {
+    "id": "santiago",
+    "name": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "lat": -33.4489,
+    "lng": -70.6693,
+    "description": "Santiago has a vibrant alternative and rock scene that has influenced Latin American music.",
+    "playlist": [
+      {
+        "title": "Gracias a la Vida",
+        "artist": "Violeta Parra",
+        "year": 1966,
+        "url": "assets/data/audio/gracias-a-la-vida.mp3",
+        "decade": "60s"
+      }
+    ]
+  },
+  {
+    "id": "dublin",
+    "name": "Dublin",
+    "country": "Ireland",
+    "region": "Europe",
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "description": "Dublin has a rich musical heritage from traditional Irish folk to iconic rock bands.",
+    "playlist": [
+      {
+        "title": "Zombie",
+        "artist": "The Cranberries",
+        "year": 1994,
+        "url": "assets/data/audio/zombie.mp3",
+        "decade": "90s"
+      }
+    ]
+  },
+  {
+    "id": "belgrade",
+    "name": "Belgrade",
+    "country": "Serbia",
+    "region": "Europe",
+    "lat": 44.7866,
+    "lng": 20.4489,
+    "description": "Belgrade has a thriving underground electronic scene and rich tradition of Balkan music.",
+    "playlist": [
+      {
+        "title": "Đurđevdan",
+        "artist": "Bijelo Dugme",
+        "year": 1988,
+        "url": "assets/data/audio/djurdjevdan.mp3",
+        "decade": "80s"
+      }
+    ]
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Europe",
+    "lat": 52.3676,
+    "lng": 4.9041,
+    "description": "Amsterdam hosts a diverse music scene from classical to electronic dance music and hosts major festivals.",
+    "playlist": [
+      {
+        "title": "Radar Love",
+        "artist": "Golden Earring",
+        "year": 1973,
+        "url": "assets/data/audio/radar-love.mp3",
+        "decade": "70s"
+      }
+    ]
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghai",
+    "country": "China",
+    "region": "Asia",
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "description": "Shanghai blends traditional Chinese music with contemporary influences and hosts a growing underground scene.",
+    "playlist": [
+      {
+        "title": "Shanghai Restoration Project",
+        "artist": "Dave Liang",
+        "year": 2006,
+        "url": "assets/data/audio/shanghai-restoration.mp3",
+        "decade": "00s"
+      }
+    ]
+  },
+  {
+    "id": "dakar",
+    "name": "Dakar",
+    "country": "Senegal",
+    "region": "Africa",
+    "lat": 14.7167,
+    "lng": -17.4677,
+    "description": "Dakar is known for mbalax, a fusion of Western pop and traditional Senegalese sabar drumming.",
+    "playlist": [
+      {
+        "title": "7 Seconds",
+        "artist": "Youssou N'Dour & Neneh Cherry",
+        "year": 1994,
+        "url": "assets/data/audio/7-seconds.mp3",
+        "decade": "90s"
+      }
+    ]
+  },
+  {
+    "id": "bogota",
+    "name": "Bogotá",
+    "country": "Colombia",
+    "region": "South America",
+    "lat": 4.7110,
+    "lng": -74.0721,
+    "description": "Bogotá's music scene ranges from traditional cumbia and vallenato to rock and electronic music.",
+    "playlist": [
+      {
+        "title": "La Tierra del Olvido",
+        "artist": "Carlos Vives",
+        "year": 1995,
+        "url": "assets/data/audio/tierra-del-olvido.mp3",
+        "decade": "90s"
+      }
+    ]
+  },
+  {
+    "id": "hong-kong",
+    "name": "Hong Kong",
+    "country": "China",
+    "region": "Asia",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "description": "Hong Kong's Cantopop has influenced music across Asia while maintaining a diverse local scene.",
+    "playlist": [
+      {
+        "title": "Hong Kong Garden",
+        "artist": "Leslie Cheung",
+        "year": 1984,
+        "url": "assets/data/audio/hong-kong-garden.mp3",
+        "decade": "80s"
+      }
+    ]
+  },
+  {
+    "id": "oslo",
+    "name": "Oslo",
+    "country": "Norway",
+    "region": "Europe",
+    "lat": 59.9139,
+    "lng": 10.7522,
+    "description": "Oslo is known for its influential black metal scene and vibrant jazz and electronic music communities.",
+    "playlist": [
+      {
+        "title": "Take On Me",
+        "artist": "a-ha",
+        "year": 1985,
+        "url": "assets/data/audio/take-on-me.mp3",
+        "decade": "80s"
+      }
+    ]
+  }
+]
