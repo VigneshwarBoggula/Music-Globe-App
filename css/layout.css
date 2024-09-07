@@ -1,0 +1,92 @@
+/* layout.css - layout structure styles */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 1rem 2rem;
+  color: var(--text-color);
+  z-index: 10;
+}
+
+header h1 {
+  color: var(--primary-color);
+  margin-bottom: 0.2rem;
+}
+
+.controls-info {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  position: relative;
+  min-height: 70vh; /* Ensure main content has sufficient height */
+  overflow: hidden; /* Prevent scrolling issues */
+}
+
+#globe-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+#music-player {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 350px;
+  max-height: calc(100vh - 12rem);
+  background-color: var(--player-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  overflow-y: auto;
+  transition: transform var(--transition-speed) ease, opacity var(--transition-speed) ease;
+  z-index: 5;
+}
+
+#music-player.hidden {
+  transform: translateX(calc(100% + 2rem));
+  opacity: 0;
+}
+
+footer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Responsive layout adjustments */
+@media screen and (max-width: 768px) {
+  #music-player {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    flex-direction: column;
+  }
+  
+  #music-player {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-height: 70vh;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
+  
+  #music-player.hidden {
+    transform: translateY(100%);
+  }
+}
