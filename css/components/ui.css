@@ -1,0 +1,137 @@
+/* ui.css - UI controls and interactive element styles */
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  text-align: center;
+  transition: background-color var(--transition-speed) ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.btn-accent {
+  background-color: var(--accent-color);
+}
+
+.btn-accent:hover {
+  background-color: #c0392b;
+}
+
+/* Spinner/Loading indicator */
+.loading-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Alert/Notification styles */
+.alert {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.alert-info {
+  background-color: rgba(52, 152, 219, 0.2);
+  border-left: 4px solid var(--secondary-color);
+}
+
+.alert-error {
+  background-color: rgba(231, 76, 60, 0.2);
+  border-left: 4px solid var(--accent-color);
+}
+
+/* Title and Question Mark */
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.question-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: help;
+}
+
+/* Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px;
+  position: absolute;
+  z-index: 100;
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Decade badges */
+.badge-decade-00s {
+  background-color: #3498db; /* Blue for 00s */
+}
+
+.badge-decade-10s {
+  background-color: #9b59b6; /* Purple for 10s */
+}
+
+.badge-decade-20s {
+  background-color: #2ecc71; /* Green for 20s */
+}
+
+/* Dark mode overrides removed */
