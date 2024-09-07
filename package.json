@@ -1,0 +1,41 @@
+{
+    "name": "music-globe-app",
+    "version": "1.0.0",
+    "description": "Interactive 3D globe for exploring music from around the world",
+    "main": "index.html",
+    "scripts": {
+      "start": "serve -s .",
+      "dev": "serve .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "music",
+      "globe",
+      "three.js",
+      "visualization",
+      "interactive"
+    ],
+    "author": "",
+    "dependencies": {
+      "three": "^0.128.0"
+    },
+    "devDependencies": {
+      "serve": "^14.2.1"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/Music-Globe-App.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yourusername/Music-Globe-App/issues"
+    },
+    "homepage": "https://github.com/yourusername/Music-Globe-App#readme"
+  }
