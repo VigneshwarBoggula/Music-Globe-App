@@ -1,0 +1,134 @@
+/* player.css - Music player component styles */
+
+#music-player {
+  padding: 1.25rem;
+}
+
+.player-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.75rem;
+}
+
+.player-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#close-player {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+#close-player:hover {
+  opacity: 1;
+}
+
+.player-info {
+  margin-bottom: 1.5rem;
+}
+
+#city-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.playlist {
+  margin-bottom: 1.5rem;
+}
+
+.playlist h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+#playlist-items {
+  list-style: none;
+}
+
+.playlist-item {
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 0.5rem;
+}
+
+.playlist-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.playlist-item.active {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.track-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.track-artist {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.track-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: 0.2rem;
+}
+
+.track-year {
+  color: var(--text-color);
+}
+
+/* Decade badges */
+.badge-decade-00s {
+  background-color: #3498db; /* Blue for 00s */
+}
+
+.badge-decade-10s {
+  background-color: #9b59b6; /* Purple for 10s */
+}
+
+.badge-decade-20s {
+  background-color: #2ecc71; /* Green for 20s */
+}
+
+.player-controls {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 1rem;
+}
+
+.now-playing {
+  margin-bottom: 0.75rem;
+}
+
+#current-track-info {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.audio-controls {
+  width: 100%;
+}
+
+#audio-player {
+  width: 100%;
+}
+
+/* Dark mode adjustments removed */
